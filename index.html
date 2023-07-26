@@ -30,8 +30,10 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              title_bg: "#121212",
+              description_bg: "#12121299",
               common_bg: "#F85559",
+              icon_bg: "#1212121a",
             },
           },
         },
@@ -101,7 +103,7 @@
         <div class="carousel w-full min-h-screen">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="absolute text-white space-y-5 text-center translate-x-1/2 translate-y-1/2">
-              <h1 class="text-6xl font-extrabold">
+              <h1 class="text-6xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
@@ -150,7 +152,7 @@
           </div>
           <div id="slide2" class="carousel-item relative w-full">
             <div class="absolute text-white space-y-5 text-center translate-x-1/2 translate-y-1/2">
-              <h1 class="text-6xl font-extrabold">
+              <h1 class="text-6xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
@@ -199,7 +201,7 @@
           </div>
           <div id="slide3" class="carousel-item relative w-full">
             <div class="absolute text-white space-y-5 text-center translate-x-1/2 translate-y-1/2">
-              <h1 class="text-6xl font-extrabold">
+              <h1 class="text-6xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
@@ -248,7 +250,7 @@
           </div>
           <div id="slide4" class="carousel-item relative w-full">
             <div class="absolute text-white space-y-5 text-center translate-x-1/2 translate-y-1/2">
-              <h1 class="text-6xl font-extrabold">
+              <h1 class="text-6xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
@@ -304,7 +306,7 @@
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="text-center">
             <div class="max-w-xl -mt-36">
-              <h1 class="mb-5 text-5xl font-extrabold text-white">Meet the team section</h1>
+              <h1 class="mb-5 text-5xl font-bold text-white">Meet the team section</h1>
               <p class="mb-5 text-sm text-white font-medium">
                 Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
                 literature from 45 BC, making it over 2000 years old.
@@ -317,7 +319,7 @@
                 <img src="images/member1.png" alt="" class="rounded-xl w-28" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title text-white font-bold">Awlad Hossain</h2>
+                <h2 class="card-title text-white font-bold text-xl">Awlad Hossain</h2>
                 <p class="text-sm text-white font-normal">Fruits Expert</p>
                 <div class="card-actions text-common_bg">
                   <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
@@ -331,7 +333,7 @@
                 <img src="images/member2.png" alt="" class="rounded-xl w-28" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title text-white font-bold">Safia Chowdhury</h2>
+                <h2 class="card-title text-white font-bold text-xl">Safia Chowdhury</h2>
                 <p class="text-sm text-white font-normal">Fruits Expert</p>
                 <div class="card-actions text-common_bg">
                   <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
@@ -345,7 +347,7 @@
                 <img src="images/member3.png" alt="" class="rounded-xl w-28" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title text-white font-bold">Rokib Hossain</h2>
+                <h2 class="card-title text-white font-bold text-xl">Rokib Hossain</h2>
                 <p class="text-sm text-white font-normal">Fruits Expert</p>
                 <div class="card-actions text-common_bg">
                   <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
@@ -359,7 +361,7 @@
                 <img src="images/member4.png" alt="" class="rounded-xl w-28" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title text-white font-bold">Chaity</h2>
+                <h2 class="card-title text-white font-bold text-xl">Chaity</h2>
                 <p class="text-sm text-white font-normal">Fruits Expert</p>
                 <div class="card-actions text-common_bg">
                   <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
@@ -372,7 +374,99 @@
         </div>
       </section>
       <!-- meet the team section end -->
+      <!-- Why Choose Us section start -->
+      <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-28 min-h-screen">
+        <div class="max-w-xl mx-auto text-center">
+          <h2 class="text-5xl font-bold mb-5 text-title_bg">Why Choose Us</h2>
+          <p class="text-sm font-normal mb-8 text-description_bg">
+            Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
+            from 45 BC, making it over 2000 years old.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <div class="space-y-6">
+            <div>
+              <div class="flex gap-9 items-start">
+                <i class="fa-solid fa-users bg-icon_bg p-5 rounded-full"></i>
+                <div class="space-y-3">
+                  <h3 class="text-xl font-bold text-title_bg">Dedicated Team</h3>
+                  <hr class="w-20 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-9 items-start">
+                <i class="fa-regular fa-heart bg-icon_bg p-5 rounded-full"></i>
+                <div class="space-y-3">
+                  <h3 class="text-xl font-bold text-title_bg">Fresh is Best</h3>
+                  <hr class="w-20 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-9 items-start">
+                <i class="fa-solid fa-gift bg-icon_bg p-5 rounded-full"></i>
+                <div class="space-y-3">
+                  <h3 class="text-xl font-bold text-title_bg">Gift Certificates</h3>
+                  <hr class="w-20 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="images/whychoose1.png" alt="" />
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="flex gap-9 items-start">
+                <div class="space-y-3 text-end">
+                  <h3 class="text-xl font-bold text-title_bg">Integrated Supplier</h3>
+                  <hr class="w-20 ml-48 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+                <i class="fa-solid fa-carrot bg-icon_bg p-5 rounded-full"></i>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-9 items-start">
+                <div class="space-y-3 text-end">
+                  <h3 class="text-xl font-bold text-title_bg">Sustainable Practice</h3>
+                  <hr class="w-20 ml-48 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+                <i class="fa-solid fa-ice-cream bg-icon_bg p-5 rounded-full"></i>
+              </div>
+            </div>
+            <div>
+              <div class="flex gap-9 items-start">
+                <div class="space-y-3 text-end">
+                  <h3 class="text-xl font-bold text-title_bg">The Benefits Only</h3>
+                  <hr class="w-20 ml-48 h-[2px] bg-description_bg" />
+                  <p class="text-description_bg text-xs font-normal">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                </div>
+                <i class="fa-regular fa-thumbs-up bg-icon_bg p-5 rounded-full"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Why Choose Us section end -->
     </main>
-    <footer></footer>
+    
   </body>
 </html>
